@@ -40,6 +40,9 @@ class Admin::CategoriesController < Admin::ApplicationController
     if @category.id = a
 
       return @category.name
+
+    else
+      return "Sin Asignar"
     end
   end
 
