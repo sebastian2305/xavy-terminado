@@ -4,6 +4,7 @@ class CreateActivities < ActiveRecord::Migration[5.2]
       t.references :venue, foreign_key: true
       t.string :name
       t.text :schedule
+      t.text :difficulty
 
       t.timestamps
     end

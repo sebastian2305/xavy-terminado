@@ -40,8 +40,13 @@ ActiveRecord::Schema.define(version: 2018_09_21_211200) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "description"
+    t.text "difficulty"
+    t.integer "category_id"
     t.index ["venue_id"], name: "index_activities_on_venue_id"
+    t.index ["categories_id"], name: "index_categories_on_activities_id"
   end
+
+
 
   create_table "venues", force: :cascade do |t|
     t.string "name"
