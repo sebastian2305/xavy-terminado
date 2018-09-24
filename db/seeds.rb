@@ -36,7 +36,7 @@ Activity.create(name: 'Clase de crossfit', description: 'Ven a entrenar', schedu
 Activity.create(name: 'Entrada libre', description: 'Ven a entrenar', schedule: 'Todos los díasa las 5:00pm',difficulty: 'Alta', venue: Venue.first)
 
 Activity.create(name: 'Kundalin yoga', description: 'Cuerpo y mente sana', schedule: 'De 8:00am a 5:00pm',difficulty: 'Alta', venue: Venue.second)
-Activity.create(name: 'Yoga meditación', description: 'Paz mental', schedule: 'De 8:00am a 10:00m y de 2:00pm a 5pm',difficulty: 'Avanzado', venue: Venue.second)
+Activity.create(name: 'Yoga meditación', description: 'Paz mental', schedule: 'De 8:00am a 10:00m y de 2:00pm a 5pm',difficulty: 'Baja', venue: Venue.second)
 
-Activity.create(name: 'Clase de escalada', description: 'Aprende las bases', schedule: 'De 8:00am a 5:00pm',difficulty: 'Avanzado', venue: Venue.third)
-Activity.create(name: 'Entrada libre', description: 'Una hora de acceso a todos los salones', schedule: 'De 8:00am a 5:00pm',difficulty: 'Avanzado', venue: Venue.third)
+Activity.create(name: 'Clase de escalada', description: 'Aprende las bases', schedule: 'De 8:00am a 5:00pm',difficulty: 'Baja', venue: Venue.third)
+Activity.create(name: 'Entrada libre', description: 'Una hora de acceso a todos los salones', schedule: 'De 8:00am a 5:00pm',difficulty: 'Baja', venue: Venue.third)

@@ -4,10 +4,12 @@
 #
 #  id          :integer          not null, primary key
 #  description :text
+#  difficulty  :text
 #  name        :string
 #  schedule    :text
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  category_id :integer
 #  venue_id    :integer
 #
 # Indexes

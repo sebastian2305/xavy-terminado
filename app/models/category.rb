@@ -1,10 +1,14 @@
 # == Schema Information
 #
-# Table name: venues
+# Table name: categories
 #
-#  id          :integer          not null, primary key
-#  description :string
-#  name        :string
+#  id          :integer          primary key
+#  description :text
+#  name        :string           not null
+#
+# Indexes
+#
+#  Category_id_uindex  (id) UNIQUE
 #
 
 class Category < ApplicationRecord
