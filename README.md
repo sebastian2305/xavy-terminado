@@ -53,7 +53,7 @@ Para iniciar el proyecto se deben seguir los siguientes pasos:
 
 3. Crear la base de datos `bundle exec rails db:create`
 
-4. Ejecutar las migraciones `bundle exec rails db:migrate`
+4. Ejecutar las migraciones `bundle exec rails db:schema:load`
 
 5. Cargar los datos de prueba `bundle exec rails db:seed`
 
