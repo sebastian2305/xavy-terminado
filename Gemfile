@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'simple_form'
-
+gem 'seed_dump'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'duktape'
 
