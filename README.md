@@ -1,43 +1,5 @@
 # xavy
 
-El objetivo de este proyecto es realizar una prueba técnica en una aplicación web
-Ruby on Rails con una arquitectura similar a la de <https://savy.co>.
-
-Para empezar a trabajar el ejercicio haz un fork de este repositorio en tu cuenta de github como se indica en este [link](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository)
-
-## Preparación del ambiente de desarrollo
-
-Si ya tienes configurado un ambiente de desarrollo de Ruby on Rails puedes saltarte este paso,de lo contrario puedes elegir entre realizar el desarroll en un ambiente Cloud, o instalar localmente las dependencias del proyecto.
-
-### Opción 1: Cloud IDE
-
-Para comenzar a trabajar en el ejercicio sin realizar la instalación local del ambiente de Ruby on Rails, se recomienda usar [Cloud 9 IDE](https://c9.io).
-
-Una vez hayas hecho el fork del proyecto en tu github, podrás entrar a Cloud 9 y sincronizar el respositorio con el ambiente de desarrollo virtual.
-
-### Opción 2: Instalación local
-
-#### Linux
-
-Seguir las instrucciones de este link (https://gorails.com/setup/ubuntu/18.10)
-
-#### Mac OS
-
-Seguir las instrucciones de este link (https://gorails.com/setup/osx/10.13-high-sierra)
-
-#### Windows
-
-1. Instalar ruby: [windows](https://rubyinstaller.org/)
-2. Desde la consola de comandos en modo administrador instalar bundler:
-
-   `gem install bundler`
-
-3. Desde la consola de comandos en modo administrador instalar bundler:
-
-   `gem install rails 5.2.1`
-
-4. Instalar SQLLite3 siguiendo estas indicaciones (https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-
 ## Proyecto
 
 El proyecto de pruebas se entrega en estado funcional, con datos iniciales y con sus respectivas pruebas unitarias, de integración y de sistema.
